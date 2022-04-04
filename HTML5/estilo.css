@@ -25,14 +25,14 @@ h1{
 
 .container-big{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .container-message{
     background-color: #808080;
     border-radius: 8px;
-    width: 300px;
-
+    width: 300px; /* Ancho */
+    margin: 8px;
 }
 
 .mensaje-01{
@@ -43,4 +43,44 @@ h1{
 .mensaje-02{
     color: white;
     font-size: 20px;
+}
+
+.mas-externo{
+    display: flex;
+    justify-content: center;
+}
+
+.externo{
+
+    display: grid;
+    width: 400px;
+    height: 400px;
+    background-color: slategray;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.interno{
+    background-color: red;
+    color:white;
+    font-weight: bold;
+}
+
+.externo .interno:nth-child(1){
+    grid-column: 1/2;
+}
+
+.externo .interno:nth-child(2){
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.externo .interno:nth-child(3){
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+.externo .interno:nth-child(4){
+    grid-column: 4/5;
+    grid-row: 4/5;
 }
