@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario 3</title>
+</head>
+<body>
+
+    <form action="conexion.js" method="post">
+        <label for="menu">Elige tu marca de preferencia: </label><br>
+        <select name="menu" id="menu" required>
+            <option value="1">Ford</option>
+            <option value="2">Toyota</option>
+            <option value="3">Chevrolet</option>
+            <option value="4">BMW</option>
+            <option value="5">Audi</option>
+        </select>
+        <br>
+
+        <label for="iniciales">Escribe tus iniciales: </label>
+        <input id="iniciales" type="text" pattern="[A-Za-z]{3}">
+
+        <input type="submit" value="Enviar">
+        
+    </form>
+    
+    
+</body>
+</html>
