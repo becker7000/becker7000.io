@@ -22,7 +22,7 @@
 /*La imagen que va encima es la absoluta que se mueve de forma relativa a la imagen de fondo*/
 #estambre{
     position: absolute;
-    top: 360px;
-    right: 800px;
+    top: 360px; /* hay 360 pixeles de arriba hacia abajo */
+    right: 800px; /* hay 800 pixeles de derecha hacia la izquierda*/
     z-index: 5;
 }
