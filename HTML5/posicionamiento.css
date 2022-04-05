@@ -1,0 +1,28 @@
+
+.container #gatito{
+
+    width: 800px;
+
+}
+
+.container #estambre{
+
+    width: 180px;
+
+}
+
+/* POSICIONAMIENTO: nos permite colocar un elemento donde queramos por medio de coordenadas*/
+
+/*La imagen que va de fondo es la relativa*/
+#gatito{
+    position: relative;
+    z-index: 4;
+}
+
+/*La imagen que va encima es la absoluta que se mueve de forma relativa a la imagen de fondo*/
+#estambre{
+    position: absolute;
+    top: 360px;
+    right: 800px;
+    z-index: 5;
+}

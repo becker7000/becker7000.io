@@ -1,0 +1,35 @@
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.tablero{ /* Esta clase padre */
+    display: grid;
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+}
+
+.item-i{ /*Nota: esta clase es hija de tablero pero es madre de item*/
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+
+.item-p{ /* Esta clase tambien es hija de tablero pero es madre de item*/
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+/* Dentro de la clase padre item-i cada hijo impar(2n+1) se pinta de negro*/
+/* Lo logramos gracias a la clase nth-child*/
+.item-i .item:nth-child(2n+1){
+    background-color: black;
+}
+
+/* Dentro de la clase padre item-p cada hijo par(2n) se pinta de negro*/
+.item-p .item:nth-child(2n){
+    background-color: black;
+}
+
