@@ -93,3 +93,19 @@ nav{
 .home-subtitle{
     font-size: 16px;
 }
+
+.images{
+    width:100%;
+}
+
+.par{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.par img{
+    width: 400px;
+    height: 300px;
+    object-fit: contain;
+}
