@@ -27,9 +27,52 @@ body{
 nav{
     display: flex;
     justify-content: space-between;
-    padding: 28px;
+    padding: 12px;
     border-bottom: 1px solid var(--very-light-gray);
 }
+
+.navbar-left{
+    margin-left: 60px;
+}
+
+.navbar-left ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+.navbar-left ul li a{
+    text-decoration: none;
+    color: var(--very-light-gray);
+    font-size: var(--lg);
+    font-weight: bold;
+    border: 1px solid var(--white);
+    padding: 8px;
+    border-radius: 8px;
+    margin: 4px;
+}
+
+/*Hover nos ayuda a dar efecto al pasar el mouse por encima*/
+.navbar-left ul li a:hover{
+    text-decoration: none;
+    color: var(--hospital-green);
+    border: 2px solid var(--hospital-green);
+}
+
+.navbar-right{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    margin-right: 60px; 
+}
+
+/*Fin estilo navbar*/
+
 
 .max-container{
     width: 80%;
