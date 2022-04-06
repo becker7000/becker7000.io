@@ -2,6 +2,27 @@
 body{
     display: flex;
     justify-content: center;
+    font-family: 'Ubuntu Mono',monospace;
+}
+
+.max-container{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-left: 1px solid blue;
+    border-right: 16px dashed blue;
+}
+
+.chess-title{
+    background-image: linear-gradient(180deg,#abd9b2,#ffffff);
+    font-size: 24px;
+    margin: 12px 0 0 0;
+}
+
+.chess-subtitle{
+    font-size: 16px;
 }
 
 .tablero{ /* Esta clase padre */

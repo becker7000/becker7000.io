@@ -4,13 +4,31 @@ body{
     padding: 0;
     font-family: 'Ubuntu Mono', monospace;
     color: wheat;
-}
-
-/* Selector de etiqueta*/
-section{
     display: flex;
     justify-content: center;
-    width: 100%;
+    
+}
+
+.max-container{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-left: 1px solid blue;
+    border-right: 16px dashed blue;
+}
+
+.card-title{
+    background-image: linear-gradient(180deg,#abd9b2,#ffffff);
+    font-size: 24px;
+    margin: 12px 0 0 0;
+    color: black;
+}
+
+.card-subtitle{
+    font-size: 16px;
+    color: black;
 }
 
 .card{

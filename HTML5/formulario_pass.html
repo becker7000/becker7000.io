@@ -11,18 +11,33 @@
 <body>
     
     <div class="login">
+
+        <h1 class="form-title">
+            Usando formularios
+        </h1>
+        <p class="form-subtitle">
+            Los formularios nos permiten la interaccion con los usuarios y recabar información.
+        </p>
     
         <div class="form-container">
-            <img class="logo" src="logo_yard_sale.svg" alt="LOGO">
-            <h1 class="titulo">Crea una contraseña nueva.</h1>
-            <p class="subtitulo">Por favor, escribe tu nueva contraseña.</p>
+            <h1 class="titulo">Crear cuenta</h1>
+            <p class="subtitulo">Por favor, escribe tus datos</p>
             <form action="/" class="form">
+                
+                <label for="name" class="label">
+                    Nombre: 
+                </label>
+                <input id="name" type="text" placeholder="Francisco" class="input i-password">
+                <label for="email" class="label">
+                    Email: 
+                </label>
+                <input id="email" type="email" placeholder="becker7000@outlook.es" class="input i-password">   
                 <label for="password" class="label">
                     Contraseña: 
                 </label>
                 <input id="password" type="password" placeholder="********" class="input i-password">
                 <label for="new-password" class="label">
-                    Contraseña nueva: 
+                    Confirmar contraseña: 
                 </label>
                 <input id="new-password" type="password" placeholder="********" class="input i-password">
 

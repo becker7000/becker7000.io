@@ -1,3 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu Mono', monospace;
+    display: flex;
+    justify-content: center;
+}
+
+.max-container{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-left: 1px solid blue;
+    border-right: 16px dashed blue;
+}
+
+.position-title{
+    background-image: linear-gradient(180deg,#abd9b2,#ffffff);
+    font-size: 24px;
+    margin: 12px 0 0 0;
+}
+
+.position-subtitle{
+    font-size: 16px;
+}
 
 .container #gatito{
 
@@ -22,7 +49,7 @@
 /*La imagen que va encima es la absoluta que se mueve de forma relativa a la imagen de fondo*/
 #estambre{
     position: absolute;
-    top: 360px; /* hay 360 pixeles de arriba hacia abajo */
-    right: 800px; /* hay 800 pixeles de derecha hacia la izquierda*/
+    top: 420px; /* hay 360 pixeles de arriba hacia abajo */
+    right: 536px; /* hay 800 pixeles de derecha hacia la izquierda*/
     z-index: 5;
 }
